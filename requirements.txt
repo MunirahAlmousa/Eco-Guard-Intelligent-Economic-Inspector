@@ -1,0 +1,11 @@
+streamlit
+groq
+python-dotenv
+pandas
+openpyxl
+fastapi
+uvicorn
+pydantic
+requests
+plotly
+anthropic
