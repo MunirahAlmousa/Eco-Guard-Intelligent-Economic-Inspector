@@ -1,0 +1,252 @@
+{
+  "source": "الهيئة العامة للإحصاء - مسح دخل وإنفاق الأسرة 2023 وتعداد السعودية 2022 وشركة الكهرباء السعودية 2024 والتصنيف السعودي الموحد للمهن",
+  "national_averages": {
+    "average_family_size": 4.8,
+    "average_monthly_income": 18056,
+    "average_monthly_expenses": 16028,
+    "income_per_person": 3977
+  },
+  "spending_levels": {
+    "low": {
+      "max": 8000,
+      "label": "منخفض"
+    },
+    "medium": {
+      "min": 8001,
+      "max": 16000,
+      "label": "متوسط"
+    },
+    "high": {
+      "min": 16001,
+      "label": "مرتفع"
+    }
+  },
+  "electricity_tariff": {
+    "source": "شركة الكهرباء السعودية 2024",
+    "tier1_per_kwh_halala": 18,
+    "tier1_limit_kwh": 6000,
+    "tier2_per_kwh_halala": 30,
+    "villa_avg_consumption_kwh": 7500,
+    "apartment_avg_consumption_kwh": 2000,
+    "villa_avg_bill": 1530,
+    "apartment_avg_bill": 360
+  },
+  "housing_electricity": {
+    "source": "تعداد السعودية 2022 + تعرفة شركة الكهرباء السعودية 2024",
+    "فيلا": {
+      "min": 800,
+      "max": 2500,
+      "average": 1530
+    },
+    "شقة": {
+      "min": 200,
+      "max": 700,
+      "average": 360
+    },
+    "منزل شعبي": {
+      "min": 500,
+      "max": 1500,
+      "average": 900
+    },
+    "دور في فيلا": {
+      "min": 400,
+      "max": 1200,
+      "average": 700
+    },
+    "دور في منزل شعبي": {
+      "min": 300,
+      "max": 900,
+      "average": 550
+    },
+    "أخرى": {
+      "min": 200,
+      "max": 1000,
+      "average": 500
+    }
+  },
+  "occupation_education_matrix": {
+    "دكتوراه": [
+      "أستاذ جامعي",
+      "طبيب",
+      "مدير تنفيذي",
+      "باحث",
+      "مستشار"
+    ],
+    "ماجستير": [
+      "مهندس أول",
+      "محاسب قانوني",
+      "مدير",
+      "محلل",
+      "أخصائي"
+    ],
+    "بكالوريوس": [
+      "مهندس",
+      "معلم",
+      "محاسب",
+      "موظف إداري",
+      "مبرمج"
+    ],
+    "دبلوم": [
+      "فني",
+      "مشرف",
+      "سكرتير",
+      "موظف خدمة عملاء",
+      "تقني"
+    ],
+    "ثانوية": [
+      "عامل",
+      "سائق",
+      "حارس أمن",
+      "موظف مبيعات",
+      "عامل مستودع"
+    ],
+    "أقل من ثانوية": [
+      "عامل يدوي",
+      "بائع متجول",
+      "عامل نظافة",
+      "عامل مزرعة"
+    ]
+  },
+  "regions": {
+    "الرياض": {
+      "average_income": 25995,
+      "average_expenses": 21971,
+      "average_family_size": 5.1,
+      "income_per_person": 5941,
+      "villa_electricity_avg": 1530,
+      "apartment_electricity_avg": 360,
+      "min_reasonable_income": 5000,
+      "max_reasonable_income": 80000
+    },
+    "مكة": {
+      "average_income": 15577,
+      "average_expenses": 12977,
+      "average_family_size": 4.9,
+      "income_per_person": 3610,
+      "villa_electricity_avg": 1530,
+      "apartment_electricity_avg": 360,
+      "min_reasonable_income": 4000,
+      "max_reasonable_income": 60000
+    },
+    "جدة": {
+      "average_income": 15577,
+      "average_expenses": 12977,
+      "average_family_size": 4.7,
+      "income_per_person": 3610,
+      "villa_electricity_avg": 1530,
+      "apartment_electricity_avg": 360,
+      "min_reasonable_income": 4000,
+      "max_reasonable_income": 60000
+    },
+    "الشرقية": {
+      "average_income": 18661,
+      "average_expenses": 17898,
+      "average_family_size": 5,
+      "income_per_person": 4243,
+      "villa_electricity_avg": 1530,
+      "apartment_electricity_avg": 360,
+      "min_reasonable_income": 5000,
+      "max_reasonable_income": 70000
+    },
+    "المدينة": {
+      "average_income": 12939,
+      "average_expenses": 12355,
+      "average_family_size": 4.6,
+      "income_per_person": 2812,
+      "villa_electricity_avg": 1530,
+      "apartment_electricity_avg": 360,
+      "min_reasonable_income": 3500,
+      "max_reasonable_income": 50000
+    },
+    "نجران": {
+      "average_income": 10979,
+      "average_expenses": 10857,
+      "average_family_size": 5.5,
+      "income_per_person": 1996,
+      "villa_electricity_avg": 1530,
+      "apartment_electricity_avg": 360,
+      "min_reasonable_income": 3000,
+      "max_reasonable_income": 40000
+    },
+    "عسير": {
+      "average_income": 15820,
+      "average_expenses": 12864,
+      "average_family_size": 5.2,
+      "income_per_person": 3366,
+      "villa_electricity_avg": 1530,
+      "apartment_electricity_avg": 360,
+      "min_reasonable_income": 3500,
+      "max_reasonable_income": 55000
+    },
+    "الحدود الشمالية": {
+      "average_income": 16427,
+      "average_expenses": 13989,
+      "average_family_size": 5.3,
+      "income_per_person": 3100,
+      "villa_electricity_avg": 1530,
+      "apartment_electricity_avg": 360,
+      "min_reasonable_income": 3500,
+      "max_reasonable_income": 55000
+    },
+    "القصيم": {
+      "average_income": 13958,
+      "average_expenses": 13628,
+      "average_family_size": 5.4,
+      "income_per_person": 2800,
+      "villa_electricity_avg": 1530,
+      "apartment_electricity_avg": 360,
+      "min_reasonable_income": 3500,
+      "max_reasonable_income": 50000
+    },
+    "تبوك": {
+      "average_income": 14341,
+      "average_expenses": 12403,
+      "average_family_size": 5,
+      "income_per_person": 2700,
+      "villa_electricity_avg": 1530,
+      "apartment_electricity_avg": 360,
+      "min_reasonable_income": 3500,
+      "max_reasonable_income": 50000
+    },
+    "جازان": {
+      "average_income": 14010,
+      "average_expenses": 16583,
+      "average_family_size": 5.6,
+      "income_per_person": 2375,
+      "villa_electricity_avg": 1530,
+      "apartment_electricity_avg": 360,
+      "min_reasonable_income": 3000,
+      "max_reasonable_income": 45000
+    },
+    "حائل": {
+      "average_income": 13495,
+      "average_expenses": 11891,
+      "average_family_size": 5.1,
+      "income_per_person": 2549,
+      "villa_electricity_avg": 1530,
+      "apartment_electricity_avg": 360,
+      "min_reasonable_income": 3000,
+      "max_reasonable_income": 45000
+    },
+    "الباحة": {
+      "average_income": 14371,
+      "average_expenses": 14459,
+      "average_family_size": 4.8,
+      "income_per_person": 3015,
+      "villa_electricity_avg": 1530,
+      "apartment_electricity_avg": 360,
+      "min_reasonable_income": 3000,
+      "max_reasonable_income": 45000
+    },
+    "الجوف": {
+      "average_income": 14712,
+      "average_expenses": 12722,
+      "average_family_size": 5,
+      "income_per_person": 2942,
+      "villa_electricity_avg": 1530,
+      "apartment_electricity_avg": 360,
+      "min_reasonable_income": 3000,
+      "max_reasonable_income": 45000
+    }
+  }
+}
